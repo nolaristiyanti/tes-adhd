@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 100%; /* 16:9 Aspect Ratio */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.responsiveyoutube {
+ position: relative;
+ padding-bottom: 56.25%; /* 16:9 */
+ padding-top: 25px;
+ height: 0;
+}
+.responsiveyoutube iframe {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+</style>
+</head>
+<body>
+
+<h2>Responsive Iframe</h2>
+<h3>Maintain Aspect Ratio 16:9</h3>
+<p>Resize the window to see the effect.</p>
+
+<div class="responsiveyoutube">
+    <!-- di bawah ini adalah kode asli dari youtube -->
+    <iframe width="20%" height="50%" src="https://www.youtube.com/embed/B5ps-JQazts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>
