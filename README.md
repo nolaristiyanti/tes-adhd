@@ -25,8 +25,7 @@ Roles & Tools :
 •	System testing & validation with pediatric expert
 
 Process :
-•	Researched DSM-5 ADHD![Use Case Diagaram](https://github.com/user-attachments/assets/c30fe9b2-f74d-4b20-9817-e7e9e5be9d5d)
- criteria and behavioral indicators.
+•	Researched DSM-5 ADHD, criteria and behavioral indicators.
 •	Designed fuzzy membership functions and rule base.
 •	Implemented web-based questionnaire and scoring logic.
 •	Conducted alpha testing, usability testing, and expert validation.
