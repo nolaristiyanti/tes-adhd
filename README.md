@@ -1,4 +1,6 @@
 Summary :
+Attention-deficit/hyperactivity disorder, also called ADHD, is a long-term condition that affects millions of children. It often continues into adulthood. ADHD includes a mix of ongoing problems. These can include having a hard time paying attention, being hyperactive and being impulsive.
+
 A web-based behavioral screening application designed to help parents identify early signs of ADHD in children aged 4–12. The system implements a fuzzy logic algorithm to analyze symptom patterns based on DSM-5 criteria and generate decision-support results. This tool is intended for early screening — not clinical diagnosis.
 
 Problem :
